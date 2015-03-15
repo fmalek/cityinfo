@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>edu.htwm.fmalek</groupId>
+    <artifactId>cityinfo</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  <artifactId>cityinfo.services.rest.client</artifactId>
+  <name>cityinfo.services.rest.client</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+    	<artifactId>cityinfo.services.core</artifactId>
+    	<groupId>${project.groupId}</groupId>
+    	<version>${project.version}</version>
+    </dependency>
+        <dependency>
+    	<groupId>com.sun.jersey</groupId>
+    	<artifactId>jersey-server</artifactId>
+    	<version>${jersey.version}</version>
+    </dependency>
+    <dependency>
+    	<groupId>com.sun.jersey</groupId>
+    	<artifactId>jersey-server</artifactId>
+    	<version>${jersey.version}</version>
+    </dependency>
+    <dependency>
+    	<groupId>com.sun.jersey</groupId>
+    	<artifactId>jersey-json</artifactId>
+    	<version>${jersey.version}</version>
+    </dependency>
+    <dependency>
+    	<groupId>commons-httpclient</groupId>
+    	<artifactId>commons-httpclient</artifactId>
+    	<version>3.1</version>
+    </dependency>
+    <dependency>
+    	<groupId>commons-lang</groupId>
+    	<artifactId>commons-lang</artifactId>
+    	<scope>test</scope>
+    	<type>jar</type>
+    </dependency>
+  </dependencies>
+  <build>
+<plugins>
+   <plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-surefire-plugin</artifactId>
+	<version>2.12.4</version>
+	<configuration>
+		<skipTests>true</skipTests>
+	</configuration>
+    </plugin>
+</plugins>
+</build>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<city id="123">
+    <name>qweasr</name>
+	<einwohner>123532</einwohner>
+	<plz>61234</plz>
+    <attraktionen>
+        <attraktion>
+            <name>bw3213</name>
+            <lage>123ase</lage>
+			<typ>1</typ>
+			<beschreibung>ysqwe123</beschreibung>
+        </attraktion>
+    </attraktionen>
+</city>

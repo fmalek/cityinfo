@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<city id="1">
+    <name>mittweida</name>
+	<einwohner>14946</einwohner>
+	<plz>09648</plz>
+    <attraktionen>
+        <attraktion>
+            <name>hs-mittweida</name>
+            <lage>westlich</lage>
+			<typ>3</typ>
+			<beschreibung>Die Hochschule der Stadt Mittweida [...]</beschreibung>
+        </attraktion>
+        <attraktion>
+            <name>Stadtkirche</name>
+            <lage>Kirchberg</lage>
+			<typ>3</typ>
+			<beschreibung>Die evangelisch-Lutherische Stadtkirche „Unser lieben Frauen“ auf dem Kirchberg stammt aus dem 15. Jahrhundert. Die Alte Schule dient jetzt als Kirchgemeindehaus. Die Pestalozzi-Schule ist ein weiterer Nachbar der Stadtkirche, auf einem Stein ist das Jahr 1876 zu lesen.</beschreibung>
+        </attraktion>
+    </attraktionen>
+</city>
